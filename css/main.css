@@ -4,10 +4,6 @@ html {
   line-height: 1.5;
 }
 
-*, *::html {
-  box-sizing: border-box;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -29,7 +25,7 @@ img {
   padding: 1.5rem 0;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
-  color: #005e76
+  color: #005e76;
 }
 
 .social > li {
